@@ -7,7 +7,7 @@ Machine learning (ML) is a subset of artificial intelligence (AI) focused on bui
 
 In this post, we will go through the main types of traditional machine learning and talk about them in brief:
 
-```
+
 Machine Learning
      |
      |-- Supervised Learning
@@ -22,12 +22,12 @@ Machine Learning
      |-- Semi-Supervised Learning
      |
      |-- Reinforcement Learning
-```
+
 
 ## 1. **Supervised Learning**
 In supervised learning, the model learns from a labeled dataset, which **contains input-output pairs**. The goal is to predict the output for new inputs based on the learned relationships.
 
-<img width="227" alt="image" src="https://github.com/user-attachments/assets/8faf0dcc-66ab-4e0d-a4f8-18dcc0749061">
+<center><img width="227" alt="image" src="https://github.com/user-attachments/assets/8faf0dcc-66ab-4e0d-a4f8-18dcc0749061"></center>
 
 ### Types of Supervised Learning:
 Supervised Learning is sub-categorized as two differeent categories, namely:
