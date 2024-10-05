@@ -2,10 +2,7 @@ Hey there,
 
 I'm a passionate software engineer dedicated to staying current with the latest advancements in Large Language Models (LLMs) and machine learning. I continuously seek to expand my knowledge and skills in this rapidly evolving field while actively sharing insights and offering support to help others on their learning journey.
 
-**Senior Software Engineer**  
-**Email:** officialmail.kumar.rahul@gmail.com  
-**Phone:** +91 73377 74984  
-**LinkedIn:** [Rahulkumar082](#)
+**Senior Software Engineer at Bosch** 
 
 ---
 
