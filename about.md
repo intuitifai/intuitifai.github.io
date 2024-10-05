@@ -1,8 +1,8 @@
 Hey there,
 
-I'm a passionate software engineer dedicated to staying current with the latest advancements in Large Language Models (LLMs) and machine learning. I continuously seek to expand my knowledge and skills in this rapidly evolving field while actively sharing insights and offering support to help others on their learning journey.
+I'm Rahul, a passionate software engineer dedicated to staying current with the latest advancements in Large Language Models (LLMs) and machine learning. I am currently working as a **Senior Software Engineer at Bosch** where I am expanding my knowledge and skills in this rapidly evolving field while actively sharing insights and offering support to help others on their learning journey.
 
-**Senior Software Engineer at Bosch** 
+
 
 ---
 
