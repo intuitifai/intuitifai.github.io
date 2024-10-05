@@ -23,7 +23,7 @@ I'm a passionate software engineer dedicated to staying current with the latest 
 
 ---
 
-## EDUCATION
+<h2 style="background: radial-gradient(circle, red, purple); -webkit-background-clip: text; color: transparent;">EDUCATION</h2>
 
 - **Nitte Meenakshi Institute of Technology**  
   B.E in Information Science | 2015-19  
@@ -39,7 +39,7 @@ I'm a passionate software engineer dedicated to staying current with the latest 
 
 ---
 
-## CERTIFICATIONS
+<h2 style="background: radial-gradient(circle, red, purple); -webkit-background-clip: text; color: transparent;">CERTIFICATIONS</h2>
 
 - Generative AI Basics: Coursera
 - Text Classification using BERT: LinkedIn
@@ -49,7 +49,7 @@ I'm a passionate software engineer dedicated to staying current with the latest 
 
 ---
 
-## ACHIEVEMENTS
+<h2 style="background: radial-gradient(circle, red, purple); -webkit-background-clip: text; color: transparent;">ACHIEVEMENTS</h2>
 
 - Awarded "Star of the Month" twice in 2024 for outstanding performance.
 - Leading internal initiatives to improve efficiency using AI/ML solutions.
@@ -58,7 +58,7 @@ I'm a passionate software engineer dedicated to staying current with the latest 
 
 ---
 
-## SKILLS
+<h2 style="background: radial-gradient(circle, red, purple); -webkit-background-clip: text; color: transparent;">SKILLS</h2>
 
 ### PROGRAMMING
 - **Languages:** Python, SQL (basics), Markdown
