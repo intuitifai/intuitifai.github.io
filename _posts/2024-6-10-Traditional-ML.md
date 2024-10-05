@@ -6,22 +6,8 @@ title: An overview of Traditional Machine Learning
 Machine learning (ML) is a subset of artificial intelligence (AI) focused on building systems that can learn from data and improve their performance over time. While deep learning has become popular, traditional machine learning techniques are still **highly relevant** due to their simplicity, interpretability, and efficiency, especially when working with smaller datasets. This post provides an overview of the fundamental concepts in traditional machine learning.
 
 In this post, we will go through the main types of traditional machine learning and talk about them in brief:
+<center><img width="953" alt="image" src="https://github.com/user-attachments/assets/83f35411-ded1-4040-a30f-d5e90cd84556"></center>
 
-
-Machine Learning
-     |
-     |-- Supervised Learning
-     |     |-- Classification
-     |     |-- Regression
-     |
-     |-- Unsupervised Learning
-     |     |-- Clustering
-     |     |-- Association
-     |     |-- Dimensionality Reduction
-     |
-     |-- Semi-Supervised Learning
-     |
-     |-- Reinforcement Learning
 
 
 ## 1. **Supervised Learning**
