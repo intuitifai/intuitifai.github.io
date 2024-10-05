@@ -9,7 +9,8 @@ I'm a passionate software engineer dedicated to staying current with the latest 
 
 ---
 
-<h2 style="background: linear-gradient(to right, red, purple); -webkit-background-clip: text; color: transparent;">PROFESSIONAL EXPERIENCE</h2>
+<h2 style="background: radial-gradient(circle, red, purple); -webkit-background-clip: text; color: transparent;">PROFESSIONAL EXPERIENCE</h2>
+
 ### BOSCH | Senior Software Engineer  
 *Jan 2022 – Present · Bengaluru*  
 - Developed and deployed an NLP-based Bug Triage application, reducing manual effort by 0.5 Person-Year annually.
