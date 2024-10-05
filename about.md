@@ -1,4 +1,7 @@
-# RAHUL KUMAR  
+Hey there,
+
+I'm a passionate software engineer dedicated to staying current with the latest advancements in Large Language Models (LLMs) and machine learning. I continuously seek to expand my knowledge and skills in this rapidly evolving field while actively sharing insights and offering support to help others on their learning journey.
+
 **Senior Software Engineer**  
 **Email:** officialmail.kumar.rahul@gmail.com  
 **Phone:** +91 73377 74984  
@@ -6,8 +9,7 @@
 
 ---
 
-## PROFESSIONAL EXPERIENCE
-
+<h2 style="background: linear-gradient(to right, red, purple); -webkit-background-clip: text; color: transparent;">PROFESSIONAL EXPERIENCE</h2>
 ### BOSCH | Senior Software Engineer  
 *Jan 2022 – Present · Bengaluru*  
 - Developed and deployed an NLP-based Bug Triage application, reducing manual effort by 0.5 Person-Year annually.
