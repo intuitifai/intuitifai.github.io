@@ -10,12 +10,12 @@ Today, we are going to discuss an optimal algorithm used to find a loop in a lin
 ## How Does It Work?
 
 1. **Two Pointers:** The algorithm uses two pointers:
-   * `slow` (tortoise) moves one step at a time.
-   * `fast` (hare) moves two steps at a time.
+   * slow (tortoise) moves one step at a time.
+   * fast (hare) moves two steps at a time.
 
 2. **Cycle Detection:** 
-   * If there is **no cycle**, the `fast` pointer will eventually reach the end of the list.
-   * If there **is a cycle**, the `fast` and `slow` pointers will eventually meet inside the cycle.
+   * If there is **no cycle**, the fast pointer will eventually reach the end of the list.
+   * If there **is a cycle**, the fast and slow pointers will eventually meet inside the cycle.
 
 ### Finding the Start of the Cycle
 
@@ -26,11 +26,11 @@ To find the exact node where the cycle begins:
 
 ### Example to Understand the Concept
 
-Let's consider a singly linked list with nodes `[1, 2, 3, 4]`. As shown in the image, there is a cycle present in the linked list.
+Let's consider a singly linked list with nodes [1, 2, 3, 4]. As shown in the image, there is a cycle present in the linked list.
 
 <center><img width="479" alt="image" src="https://github.com/user-attachments/assets/22dc639d-6c3f-4063-b150-1c44e84f8443"></center>
 
-We place two pointers, `tortoise` and `hare`, which will move at different speeds (`slow` and `fast`, respectively).
+We place two pointers, tortoise and hare, which will move at different speeds (slow and fast, respectively).
 
 - Images here illustrate the movement of the two pointers:
 <center><img width="443" alt="image" src="https://github.com/user-attachments/assets/71698561-ef6e-4fa6-92eb-5f7b2ff303b3"></center>
