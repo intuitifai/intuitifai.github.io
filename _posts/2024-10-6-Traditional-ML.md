@@ -3,7 +3,7 @@ layout: post
 title: An overview of Traditional Machine Learning
 ---
 
-<center><img width="600" alt="image" src="https://github.com/user-attachments/assets/886d2c41-c09b-4a21-b2a5-15e80111fad9"></center>
+<center><img width="300" alt="image" src="https://github.com/user-attachments/assets/886d2c41-c09b-4a21-b2a5-15e80111fad9"></center>
 
 Machine learning (ML) is a subset of artificial intelligence (AI) focused on building systems that can learn from data and improve their performance over time. While deep learning has become popular, traditional machine learning techniques are still **highly relevant** due to their simplicity, interpretability, and efficiency, especially when working with smaller datasets. This post provides an overview of the fundamental concepts in traditional machine learning.
 
