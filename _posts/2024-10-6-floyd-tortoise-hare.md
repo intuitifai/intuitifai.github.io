@@ -24,13 +24,13 @@ Lets understand the concept with an example. Lets say we have a singly linked li
 <center><img width="479" alt="image" src="https://github.com/user-attachments/assets/22dc639d-6c3f-4063-b150-1c44e84f8443"></center>
 
 We can place two pointers, `tortoise` and `hare`, which will move `slow` and `fast` respectively.
-<img width="443" alt="image" src="https://github.com/user-attachments/assets/71698561-ef6e-4fa6-92eb-5f7b2ff303b3">
-<img width="446" alt="image" src="https://github.com/user-attachments/assets/c4aaf34f-4492-4205-bc03-a23e3f070383">
-<img width="442" alt="image" src="https://github.com/user-attachments/assets/e90ce48b-a4c4-428d-9026-e57fb58831f0">
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/d7861e52-db0c-4700-8b49-be869addce20">
+<center><img width="443" alt="image" src="https://github.com/user-attachments/assets/71698561-ef6e-4fa6-92eb-5f7b2ff303b3"></center>
+<center><img width="446" alt="image" src="https://github.com/user-attachments/assets/c4aaf34f-4492-4205-bc03-a23e3f070383"></center>
+<center><img width="442" alt="image" src="https://github.com/user-attachments/assets/e90ce48b-a4c4-428d-9026-e57fb58831f0"></center>
+<center><img width="550" alt="image" src="https://github.com/user-attachments/assets/d7861e52-db0c-4700-8b49-be869addce20"></center>
 
 ## Code in Python
-```
+```python
 class ListNode:
     def __init__(self, value=0, next=None):
         self.value = value
