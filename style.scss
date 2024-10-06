@@ -283,6 +283,16 @@ footer {
   text-align: center;
 }
 
+code, pre {
+    background-color: #000; /* Black background */
+    color: #f8f8f2; /* Light text color for readability */
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
