@@ -53,7 +53,7 @@ We place two pointers, tortoise and hare, which will move at different speeds (s
 ## Code in Python
 
 <div class="code-container">
-```python
+<pre><code class="language-python">
 class ListNode:
     def __init__(self, value=0, next=None):
         self.value = value
@@ -86,5 +86,5 @@ node3.next = node4
 node4.next = node2  # Creates a cycle linking back to node2
 
 print(has_cycle(node1))  # Output: True
-```
+</code></pre>
 </div>
