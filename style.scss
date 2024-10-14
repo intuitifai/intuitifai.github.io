@@ -297,3 +297,44 @@ nav {
     }
   }
 }
+
+.code-container {
+  background: $code-bg;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+pre, code {
+  color: $code-text;
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+}
+
+code {
+  color: $code-text;
+}
+
+.token.keyword {
+  color: $keyword-color;
+  font-weight: bold;
+}
+
+.token.string {
+  color: $string-color;
+}
+
+.token.comment {
+  color: $comment-color;
+  font-style: italic;
+}
+
+.token.function {
+  color: $function-color;
+}
+
+.token.number {
+  color: $number-color;
+}
+
