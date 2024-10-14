@@ -7,7 +7,7 @@
 
 @import "reset";
 @import "variables";
-@import "highlights"; // Add your preferred syntax highlighting here
+@import "highlights"; // Add your preferred syntax highlighting here (Prism, Highlight.js, etc.)
 @import "svg-icons";
 
 /********************/
@@ -20,11 +20,12 @@ $dark-secondary: #242424;
 $dark-text: #e0e0e0;
 $accent-color: #bb86fc; // Use accent colors for highlighting
 $code-bg: #1e1e1e; // For code blocks
-$code-text: #d4d4d4;
-$keyword-color: #c792ea; // Keywords in code
-$string-color: #f78c6c; // Strings in code
-$comment-color: #5c6370; // Comments in code
-$function-color: #82aaff; // Function names in code
+$code-text: #e6e6e6;
+$keyword-color: #ff79c6; // Keywords in code
+$string-color: #f1fa8c; // Strings in code
+$comment-color: #6272a4; // Comments in code
+$function-color: #8be9fd; // Function names in code
+$number-color: #bd93f9; // Numbers in code
 
 /**************/
 /* BASE RULES */
@@ -107,10 +108,11 @@ a {
 pre {
   background: $code-bg;
   color: $code-text;
-  padding: 15px;
-  border-radius: 5px;
+  padding: 20px;
+  border-radius: 8px;
   overflow-x: auto;
   font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 code {
@@ -118,19 +120,25 @@ code {
 }
 
 .token.keyword {
-  color: $keyword-color;
+  color: $keyword-color; // Highlight keywords
+  font-weight: bold;
 }
 
 .token.string {
-  color: $string-color;
+  color: $string-color; // Highlight strings
 }
 
 .token.comment {
-  color: $comment-color;
+  color: $comment-color; // Highlight comments
+  font-style: italic;
 }
 
 .token.function {
-  color: $function-color;
+  color: $function-color; // Highlight function names
+}
+
+.token.number {
+  color: $number-color; // Highlight numbers
 }
 
 /**************/
@@ -179,4 +187,113 @@ footer {
 
 .wrapper-footer {
   background: $dark-secondary;
+}
+
+/**********************/
+/* IMAGES AND FIGURES */
+/**********************/
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  color: $comment-color;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/*********************/
+/* BUTTONS */
+/*********************/
+
+button, .btn {
+  background: $accent-color;
+  color: $dark-background;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background: lighten($accent-color, 10%);
+  }
+}
+
+/**************/
+/* TABLES */
+/**************/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid $dark-secondary;
+  text-align: left;
+}
+
+th {
+  background: $dark-secondary;
+  color: $accent-color;
+}
+
+/**************/
+/* BLOCKQUOTES */
+/**************/
+
+blockquote {
+  border-left: 4px solid $accent-color;
+  color: $comment-color;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background: $dark-primary;
+}
+
+/*********************/
+/* FORM INPUTS */
+/*********************/
+
+input[type="text"], input[type="email"], textarea {
+  background: $dark-primary;
+  color: $dark-text;
+  border: 1px solid $dark-secondary;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/**********************/
+/* NAVIGATION MENU */
+/**********************/
+
+nav {
+  margin-top: 20px;
+  font-family: $helveticaNeue;
+  font-size: 18px;
+
+  a {
+    margin-left: 20px;
+    color: $dark-text;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $accent-color;
+    }
+  }
 }
